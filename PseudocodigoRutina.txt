@@ -1,0 +1,72 @@
+Algoritmo Rutina
+	Definir hora Como Entero
+	Definir estado Como Logico
+	Definir comer Como Logico
+	Definir Desayuno Como Logico
+	Escribir 'Ingrese una hora entera'
+	Leer hora
+	Si hora>=6 Y hora<=8 Entonces
+		Escribir 'Joa mani, está bien temprano, vamoh a abrir la cortina'
+		estado <- verdadero
+		Esperar Tecla
+		Escribir '**Abriendo cortinas y ventanas.**'
+		Esperar Tecla
+	SiNo
+		Si hora>=8 Entonces
+			Escribir 'Uy, estoy tarde.'
+			Esperar Tecla
+			estado <- falso
+			Escribir '***Abriendo cortinas y ventanas de forma rapida.***'
+			Esperar Tecla
+		SiNo
+			Escribir 'Ingrese una hora valida para levantarse.'
+		FinSi
+	FinSi
+	Mientras estado=verdadero Hacer
+		Escribir 'Awwn que perros tan hermosos, buenos dìas, venga los consiento'
+		Escribir '**Consintiendo**'
+		Esperar Tecla
+		Escribir '                                      '
+		Escribir '**Yendo a la cocina por un tinto**'
+		Esperar Tecla
+		Escribir '**Calentando un tinto con azucar**'
+		Escribir '**Sirviendo leche en un pocillo**'
+		Escribir '...Mezclando...'
+		Esperar Tecla
+		Escribir 'Joa mani que delicioso quedò este tinto...'
+		Esperar Tecla
+		Si Desayuno=verdadero Entonces
+			comer <- verdadero
+		SiNo
+			Escribir 'Buenoo, no hay desayuno, vamoh a hacerlo, ¿quièn va a desayunar?'
+			Escribir '**Haciendo desayuno**'
+			Esperar Tecla
+			Desayuno <- verdadero
+			Escribir '**Comiendo**'
+			Esperar Tecla
+			Escribir 'Bueno, ahora si, a continuar con lo demàs.'
+			Esperar Tecla
+			estado <- falso
+			comer <- verdadero
+		FinSi
+	FinMientras
+	Escribir 'Como sea debo bañarme pa salir en esa camara.'
+	Escribir '**Yendo al baño**'
+	Esperar Tecla
+	Escribir '**Tomando baño**'
+	Escribir '**Lavandose dientes**'
+	Escribir 'Me cambio y listo pues...'
+	Esperar Tecla
+	Escribir 'Awwn que perros tan hermosos, venga los consiento'
+	Escribir '**Consintiendo**'
+	Esperar Tecla
+	Escribir 'Uy, faltan 5 pa las 9, me voy a conectar'
+	Esperar Tecla
+	Escribir '**Enciende el pc**'
+	Escribir '**Arreglando mesa**'
+	Escribir '...'
+	Esperar Tecla
+	Escribir '¿Què màs profe, bien o no?'
+	Escribir 'Awwn que perros tan hermosos, venga los consiento'
+	Escribir '**Consintiendo**'
+FinAlgoritmo
