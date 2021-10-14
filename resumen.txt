@@ -1,0 +1,56 @@
+Hola mi nombre es Ricardo Velasquez Martinez 
+Tengo 21 años 
+Vivo en Bogotá
+Tengo conocimientos basicos de C++ y bases de datos con macros en excel
+Mis hobbies son el patinaje y los videojuegos
+
+Python es para programacion en general, puede ser pagina web o investigacion, etc. Django es un ejemplo de un proyecto de python, el cual se usa para la creacion
+de paginas web de manera rapida.
+Para la instalacion se requiere descargar "Python" y "Visual Studio Code" 
+Los archivos python terminan en .py
+Se abre cmd o la consola y se puede navegar por los archivos del pc usando el comando cd, para ir a escritorio escribir "cd desktop" o "cd Escritorio"
+Para abrir carpetas se escribe "cd carpeta" y finalmente para abrir un archivo python escribe "python archivo.py"(si se presiona tab se selecciona solo) 
+
+Comandos para cmd:
+-cls limpia la consola
+-"/" division
+-"%" residuo
+-"//" division entera
+-"dyr(variable)"Obtiene las propiedades y metodos que ofrece el objeto o variable.
+-"type("variable")" Dira què tipo de dato es la variable
+Estilo de programacion:
+Snake Case: book_name
+Camel Case: bookName
+Pascal:     BookName
+
+"#" Se usa para comentar una linea.
+Tipos de variables:
+String, Integer, Float, Boolean, List, Tuples, Dictorionies(Dicts) 
+String: .Upper()   -  Todo a mayuscula
+-Concatenaciòn.
+-Imprimir variables, print(f"texto{}" y/o print("{0}".format(variable))
+-Guardar variable: variable=input("inserte su edad:") y se convierte de str a las dos demas tipos de variable.
+List:
+  r=list(range(1,10)) entonces r tendrá [1,2,3,4,5,6,7,8,9,10]
+  len. Es el tamaño
+  "texto" in colors. el in compara en la lista colors si está el texto
+  .append      Agrega un elemento ("texto")
+  .extend     Agrega un elemento pero sin añadir una vista de lista, ingresa un elemento que puede ser una lista.
+  .insert(posicion,texto)    
+  .pop Elimina el último elemento.
+  .remove("texto")
+  .clear Borra todo
+  .sort Organiza la lista A-Z
+  .sort(reverse=true) Z-A
+  .count("texto") Dice la cantidad de elementos iguales.
+
+Tuples: El valor no cambia, es como una lista.
+   =()
+   del variable Borra la tupla
+   locations={(latitud,altitud): Tokyo
+              (latitud,altitud): Africa   }
+Dictionaries: Sirve para hacer etiquetas, listas, etc.
+Control flows
+   if x<30:
+   elif: sirve para aumentar condicionales
+   else:
