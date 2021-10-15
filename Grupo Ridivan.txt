@@ -1,0 +1,12 @@
+Grupo Ridivan
+
+Integrantes:
+Juan David Gonzalez Muñoz
+usuario: jugonzalezmu
+Repositorio: https://github.com/jugonzalezmu/Programacion.git
+Diego Alejandro Avendaño Lozano
+Usuario: davendanol
+Repositorio: https://github.com/davendanol/Programacion
+Ricardo Velasquez Marginez
+Usuario: rivelasquezm 
+Repositorio: https://github.com/rivelasquezm/Programacion.git
